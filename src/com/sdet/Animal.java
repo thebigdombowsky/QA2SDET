@@ -113,6 +113,24 @@ public class Animal {
         System.out.println(fish.getColor());
 
         System.out.println(fish.toString());
+
+        Bird bird = new Bird(2, "Cheep", "White") {};
+
+        bird.fly();
+        bird.eat();
+        bird.makeNoise();
+        bird.move();
+
+        bird.setNumLegs(1);
+        bird.setNoise("Squack!");
+        bird.setColor("Black");
+
+        System.out.println(bird.getNumLegs());
+        System.out.println(bird.getNoise());
+        System.out.println(bird.getColor());
+
+        System.out.println(bird.toString());
+
     }
 
 }

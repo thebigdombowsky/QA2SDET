@@ -2,8 +2,10 @@ package com.sdet;
 
 public class Fish  extends Animal{
 
-    public Fish(String noise, String color) {
+    public Fish() {
+    }
 
+    public Fish(String noise, String color) {
     }
 
     @Override

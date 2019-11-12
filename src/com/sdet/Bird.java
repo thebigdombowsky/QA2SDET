@@ -1,9 +1,16 @@
 package com.sdet;
 
-abstract class Bird {
+abstract class Bird extends Animal{
+
+    public Bird(int numLegs, String noise, String color) {
+        super(numLegs, noise, color);
+    }
 
     Bird() {
-        System.out.println("I'm a bird!");
+    }
+
+    void fly(){
+        System.out.println("Flying!");
     }
 
 }
