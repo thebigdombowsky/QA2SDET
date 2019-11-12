@@ -103,7 +103,16 @@ public class Animal {
         System.out.println(fish.getColor());
 
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "numLegs=" + numLegs +
+                ", noise='" + noise + '\'' +
+                ", color='" + color + '\'' +
+                '}';
     }
+}
 
 
 
