@@ -4,8 +4,8 @@ package com.sdet;
 public class Animal {
 
     protected int numLegs;
-    private String noise;
-    private String color;
+    protected String noise;
+    protected String color;
 
 //This is the default (or empty) constructor
     public Animal() {
@@ -19,17 +19,17 @@ public class Animal {
         this.color = color;
     }
 
-    private void move() {
+    void move() {
         System.out.println("I'm moving...");
     }
 
-    private void eat() {
+    void eat() {
 
         System.out.println("Yummy!");
 
     }
 
-    private void makeNoise() {
+    void makeNoise() {
 
         System.out.println(noise);
 
@@ -84,6 +84,8 @@ public class Animal {
         System.out.println(dog.getNoise());
         System.out.println(dog.getColor());
 
+        System.out.println(dog.toString());
+
         Animal cat = new Animal(4, "meow", "black");
         cat.eat();
         cat.makeNoise();
@@ -97,7 +99,9 @@ public class Animal {
         System.out.println(cat.getNoise());
         System.out.println(cat.getColor());
 
-        Animal fish = new Fish(2, "Do fish make noise?", "yellow");
+        System.out.println(cat.toString());
+
+        Fish fish = new Fish(2, "Do fish make noise?", "yellow");
         fish.eat();
         fish.makeNoise();
         fish.move();
@@ -110,6 +114,7 @@ public class Animal {
         System.out.println(fish.getNoise());
         System.out.println(fish.getColor());
 
+        System.out.println(fish.toString());
     }
 
 }

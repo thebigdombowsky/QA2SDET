@@ -13,5 +13,13 @@ public class Fish  extends Animal{
             System.out.println("Fish don't have legs!");
         }
     }
+
+    @Override
+    public String toString() {
+        return "Fish{" +
+                   "noise='" + this.noise + '\'' +
+                ", color='" + this.color + '\'' +
+                '}';
+    }
 }
 
