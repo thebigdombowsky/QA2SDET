@@ -101,16 +101,14 @@ public class Animal {
 
         System.out.println(cat.toString());
 
-        Fish fish = new Fish(2, "Do fish make noise?", "yellow");
+        Fish fish = new Fish("Do fish make noise?", "yellow");
         fish.eat();
         fish.makeNoise();
         fish.move();
 
-        fish.setNumLegs(4);
         fish.setNoise("Glub, glub!");
         fish.setColor("Purple");
 
-        System.out.println(fish.getNumLegs());
         System.out.println(fish.getNoise());
         System.out.println(fish.getColor());
 
