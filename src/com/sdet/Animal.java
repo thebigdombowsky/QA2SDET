@@ -59,6 +59,14 @@ public class Animal {
         this.color = color;
     }
 
+    @Override
+    public String toString() {
+        return "Animal{" +
+                "numLegs=" + numLegs +
+                ", noise='" + noise + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 
     public static void main(String[]args) {
 
@@ -104,14 +112,6 @@ public class Animal {
 
     }
 
-    @Override
-    public String toString() {
-        return "Animal{" +
-                "numLegs=" + numLegs +
-                ", noise='" + noise + '\'' +
-                ", color='" + color + '\'' +
-                '}';
-    }
 }
 
 
