@@ -48,22 +48,54 @@ public class Zoo {
 
         System.out.println(fish.toString());
 
-        Bird bird = new Bird(2, "Cheep", "White") {};
+        Bird bird = new Bird (2, "Cheep", "Purple") {};
 
-        bird.fly();
         bird.eat();
         bird.makeNoise();
-        bird.move();
+        //bird.fly();
 
         bird.setNumLegs(1);
-        bird.setNoise("Squack!");
-        bird.setColor("Black");
+        bird.setNoise("Sqwak!");
+        bird.setColor("Magenta");
 
         System.out.println(bird.getNumLegs());
         System.out.println(bird.getNoise());
         System.out.println(bird.getColor());
 
         System.out.println(bird.toString());
+
+        Ostrich  ostrich = new Ostrich (2, "Cheep", "Red") {};
+
+        ostrich.eat();
+        ostrich.makeNoise();
+        // ostrich.fly();
+
+        ostrich.setNumLegs(1);
+        ostrich.setNoise("Sqwak!");
+        ostrich.setColor("Green");
+
+        System.out.println(ostrich.getNumLegs());
+        System.out.println(ostrich.getNoise());
+        System.out.println(ostrich.getColor());
+
+        System.out.println(ostrich.toString());
+
+
+        Sparrow  sparrow = new Sparrow (2, "Cheep", "Red") {};
+
+        sparrow.eat();
+        sparrow.makeNoise();
+        sparrow.fly();
+
+        sparrow.setNumLegs(1);
+        sparrow.setNoise("Sqwak!");
+        sparrow.setColor("Green");
+
+        System.out.println(sparrow.getNumLegs());
+        System.out.println(sparrow.getNoise());
+        System.out.println(sparrow.getColor());
+
+        System.out.println(sparrow.toString());
 
     }
 }
