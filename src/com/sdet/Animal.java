@@ -3,9 +3,9 @@ package com.sdet;
 
 public class Animal {
 
-    protected int numLegs;
-    protected String noise;
-    protected String color;
+    private int numLegs;
+    private String noise;
+    private String color;
 
 //This is the default (or empty) constructor
     public Animal() {
@@ -23,6 +23,11 @@ public class Animal {
         System.out.println("I'm moving...");
     }
 
+    //    void move() {
+    //       Remove body to demonstrate abstract classes
+    //Any classes that extend Animal must implement the move method
+    //    }
+
     void eat() {
 
         System.out.println("Yummy!");
@@ -35,30 +40,32 @@ public class Animal {
 
     }
 
-    public int getNumLegs() {
-        return numLegs;
-    }
+//    public int getNumLegs() {
+//        return numLegs;
+//    }
+//
+//    public void setNumLegs(int numLegs) {
+//        this.numLegs = numLegs;
+//    }
+//
+//    public String getNoise() {
+//        return noise;
+//    }
+//
+//    public void setNoise(String noise) {
+//        this.noise = noise;
+//    }
+//
+//    public String getColor() {
+//        return color;
+//    }
+//
+//    public void setColor(String color) {
+//        this.color = color;
+//    }
 
-    public void setNumLegs(int numLegs) {
-        this.numLegs = numLegs;
-    }
 
-    public String getNoise() {
-        return noise;
-    }
-
-    public void setNoise(String noise) {
-        this.noise = noise;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
+/*
     @Override
     public String toString() {
         return "Animal{" +
@@ -67,7 +74,7 @@ public class Animal {
                 ", color='" + color + '\'' +
                 '}';
     }
-
+*/
 
 
 }

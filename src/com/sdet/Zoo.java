@@ -10,17 +10,17 @@ public class Zoo {
         dog.makeNoise();
         dog.move();
 
-        dog.setNumLegs(3);
-        dog.setNoise("Woof!");
-        dog.setColor("Red");
+//        dog.setNumLegs(3);
+//        dog.setNoise("Woof!");
+//        dog.setColor("Red");
+//
+//        System.out.println(dog.getNumLegs());
+//        System.out.println(dog.getNoise());
+//        System.out.println(dog.getColor());
 
-        System.out.println(dog.getNumLegs());
-        System.out.println(dog.getNoise());
-        System.out.println(dog.getColor());
+        System.out.println(dog);
 
-        System.out.println(dog.toString());
-
-        Animal cat = new Animal(4, "meow", "black");
+     /*   Animal cat = new Animal(4, "meow", "black");
         cat.eat();
         cat.makeNoise();
         cat.move();
@@ -96,6 +96,6 @@ public class Zoo {
         System.out.println(sparrow.getColor());
 
         System.out.println(sparrow.toString());
-
+*/
     }
 }
