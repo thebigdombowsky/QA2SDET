@@ -1,11 +1,11 @@
-package com.sdet;
+package com.sdet.objects;
 
 
 public class Animal {
 
-    private int numLegs;
-    private String noise;
-    private String color;
+     int numLegs;
+    String noise;
+     String color;
 
 //This is the default (or empty) constructor
     public Animal() {

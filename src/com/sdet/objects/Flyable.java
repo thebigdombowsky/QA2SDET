@@ -1,4 +1,4 @@
-package com.sdet;
+package com.sdet.objects;
 
 public interface Flyable {
 
