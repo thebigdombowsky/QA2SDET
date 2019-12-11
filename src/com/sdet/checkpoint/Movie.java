@@ -16,13 +16,13 @@ public class Movie {
     }
 
    // @Override
- /*   public String toString() {
+    public String toString() {
         return "Movie{" +
                 "title='" + title + '\'' +
                 ", studio='" + studio + '\'' +
                 ", rating='" + rating + '\'' +
                 '}';
-    }*/
+    }
 
     public String getTitle() {
         return title;
